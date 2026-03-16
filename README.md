@@ -1,21 +1,181 @@
-<<<<<<< HEAD
-# React + Vite
+# Multi-Cloud Infrastructure Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern web platform that visualizes and optimizes infrastructure across multiple cloud providers.
+The application provides a unified interface to observe resources and simulate optimization across **AWS, Microsoft Azure, and Google Cloud Platform**.
 
-Currently, two official plugins are available:
+The goal of this project is to demonstrate how multi-cloud infrastructure can be managed and visualized through a single intelligent interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://cloud-platform-dun.vercel.app/
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# cloudPlatform
-A code repo for cloud
->>>>>>> 26ab710d54f8f07d018883aad60820dd8635306f
+## Features
+
+### Multi-Cloud Visualization
+
+* Unified interface for AWS, Azure, and Google Cloud
+* Animated infrastructure connections
+* Provider-to-engine workflow representation
+
+### Optimization Engine
+
+* Central system representing workload orchestration
+* Simulated infrastructure balancing across providers
+* Visual metrics such as uptime and latency
+
+### Resource Monitoring
+
+The platform displays simulated infrastructure components:
+
+* CPU
+* GPU
+* RAM
+* Network
+
+Each resource includes:
+
+* Cost per hour
+* Efficiency metrics
+* Animated usage bars
+
+### Dynamic Data Handling
+
+* API based data fetching
+* Resource data caching using `sessionStorage`
+* Skeleton loading UI
+* Error handling for API failures
+
+### Modern UI Design
+
+* Responsive interface
+* Smooth animations
+* Glass-style cloud provider cards
+* Gradient UI elements
+
+---
+
+## Tech Stack
+
+### Frontend
+
+* React
+* Vite
+* JavaScript (ES6)
+
+### UI & Animations
+
+* Custom CSS design tokens
+* SVG based cloud icons
+* Intersection Observer API
+* CSS animations
+
+### Deployment
+
+* Vercel
+
+### API
+
+* DummyJSON API (used for simulated cloud resource data)
+
+---
+
+## Project Structure
+
+src
+
+App.jsx
+main.jsx
+index.css
+
+Components included:
+
+HeroSection
+Landing section introducing the platform.
+
+CloudSection
+Main visualization section showing provider integration.
+
+CloudProvider
+Displays AWS, Azure, and Google Cloud cards.
+
+OptimizationEngine
+Represents the central orchestration engine.
+
+ResourceIcons
+Shows CPU, GPU, RAM and Network resources.
+
+---
+
+## Installation
+
+Clone the repository
+
+git clone https://github.com/trisharaj11/cloudPlatform.git
+
+Navigate into the project
+
+cd cloudPlatform
+
+Install dependencies
+
+npm install
+
+Run development server
+
+npm run dev
+
+Build the project
+
+npm run build
+
+Preview production build
+
+npm run preview
+
+---
+
+## Deployment
+
+The application is deployed using **Vercel**.
+
+Deployment steps:
+
+1. Push code to GitHub
+2. Import repository into Vercel
+3. Vercel automatically detects the **Vite framework**
+4. Deploy
+
+Build configuration used:
+
+Framework: Vite
+Build Command: npm run build
+Output Directory: dist
+
+---
+
+## Future Improvements
+
+Possible extensions for the platform:
+
+* Integration with real cloud provider APIs
+* Infrastructure cost analytics dashboard
+* Kubernetes workload orchestration
+* AI-based cloud optimization recommendations
+* DevOps monitoring tools
+
+---
+
+## Author
+
+Trisha Raj
+B.Tech CSE – SRM Institute of Science and Technology
+
+---
+
+## License
+
+This project is open source and available under the MIT License.
