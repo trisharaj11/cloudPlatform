@@ -154,28 +154,3 @@ Build configuration used:
 Framework: Vite
 Build Command: npm run build
 Output Directory: dist
-
----
-
-## Future Improvements
-
-Possible extensions for the platform:
-
-* Integration with real cloud provider APIs
-* Infrastructure cost analytics dashboard
-* Kubernetes workload orchestration
-* AI-based cloud optimization recommendations
-* DevOps monitoring tools
-
----
-
-## Author
-
-Trisha Raj
-B.Tech CSE – SRM Institute of Science and Technology
-
----
-
-## License
-
-This project is open source and available under the MIT License.
